@@ -1,0 +1,1 @@
+This branch (v4.1.5) is used to generate custom codes for RFD Active Tether Platform project - ArduCopter.
