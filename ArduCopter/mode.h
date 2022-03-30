@@ -1725,7 +1725,7 @@ private:
 #endif
 
 
-class ModeManual_ATP : public Mode {
+class ModeATPManual : public Mode {
 
 public:
     // inherit constructor

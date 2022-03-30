@@ -168,6 +168,9 @@ Mode *Copter::mode_from_mode_num(const Mode::Number mode)
             ret = &mode_autorotate;
             break;
 #endif
+        case Mode::Number::RFD_ATP_MANUAL:
+            ret = &mode_atp_manual;
+            break;
 
         default:
             break;
