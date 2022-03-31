@@ -216,6 +216,9 @@
     <ClCompile Include="ArduCopter\UserParameters.cpp">
       <Filter>ArduCopter</Filter>
     </ClCompile>
+    <ClCompile Include="mode_ATPmanual.cpp">
+      <Filter>ArduCopter</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArduCopter\afs_copter.h">

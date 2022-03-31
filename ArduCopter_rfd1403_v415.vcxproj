@@ -209,6 +209,7 @@
     <ClCompile Include="ArduCopter\tuning.cpp" />
     <ClCompile Include="ArduCopter\UserCode.cpp" />
     <ClCompile Include="ArduCopter\UserParameters.cpp" />
+    <ClCompile Include="mode_ATPmanual.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArduCopter\afs_copter.h" />
