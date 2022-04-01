@@ -986,7 +986,9 @@ private:
 #if MODE_AUTOROTATE_ENABLED == ENABLED
     ModeAutorotate mode_autorotate;
 #endif
+#if MODE_ATPMANUAL_ENABLED == ENABLED
     ModeATPManual mode_atp_manual;
+#endif
 
 
     // mode.cpp
