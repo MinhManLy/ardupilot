@@ -224,8 +224,11 @@ void Copter::fast_loop()
     // update INS immediately to get current gyro data populated
     ins.update();
 
+    if (copter.flightmode->mode_number() != Mode::Number::RFD_ATP_MANUAL)
+    {
     // run low level rate controllers that only require IMU data
-    //attitude_control->rate_controller_run();
+    attitude_control->rate_controller_run();
+    }
 
     // send outputs to the motors library immediately
     motors_output();
