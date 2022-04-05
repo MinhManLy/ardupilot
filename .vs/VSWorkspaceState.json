@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ArduCopter"
   ],
-  "SelectedNode": "\\COPYING.txt",
+  "SelectedNode": "\\ArduCopter\\Copter.cpp",
   "PreviewInSolutionExplorer": false
 }

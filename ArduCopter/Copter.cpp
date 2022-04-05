@@ -725,8 +725,3 @@ Copter copter;
 AP_Vehicle& vehicle = copter;
 
 AP_HAL_MAIN_CALLBACKS(&copter);
-
-/*
- * 0932 05042022 Tested text for Visual Studio
-
-*/
